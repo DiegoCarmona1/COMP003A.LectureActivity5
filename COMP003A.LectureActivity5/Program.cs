@@ -48,7 +48,7 @@ namespace COMP003A.LectureActivity5
             Console.WriteLine("\n");
             Inception("This is inception level ", 5);
             // Main() close
-
+            }
 
             /*XML comments are prefixed with three forward slashes '///'
             * if you type '///' on top of a class or method,
@@ -156,6 +156,5 @@ namespace COMP003A.LectureActivity5
                 counter--;
                 if (counter >= 0) Inception(message, counter--);
             }
-        }
     }
 }
